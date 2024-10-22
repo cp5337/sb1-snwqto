@@ -1,0 +1,248 @@
+[
+  {
+    "category_id": 1.0,
+    "category": "Pre-Operational Planning and Intelligence Gathering",
+    "tasks": [
+      {
+        "id": 1.1,
+        "task_name": "OSINT Collection",
+        "description": "Gathering publicly available information on targets through social media, public records, and online research."
+      },
+      {
+        "id": 1.2,
+        "task_name": "Phishing and Spear-Phishing Campaigns",
+        "description": "Targeted email campaigns aimed at obtaining credentials or planting malware."
+      },
+      {
+        "id": 1.3,
+        "task_name": "Network Scanning",
+        "description": "Identifying vulnerabilities in target networks using scanning tools to map attack vectors."
+      },
+      {
+        "id": 1.4,
+        "task_name": "Account Takeover",
+        "description": "Exploiting credentials obtained through phishing, brute force, or social engineering to impersonate a target and gain unauthorized access."
+      },
+      {
+        "id": 1.5,
+        "task_name": "Advanced Persistent Threat (APT)",
+        "description": "State-sponsored or criminal organizations using covert techniques to compromise systems for long-term espionage or data exfiltration."
+      },
+      {
+        "id": 1.6,
+        "task_name": "Cloud Access Management",
+        "description": "Exploiting poor cloud configuration or mismanagement to gain unauthorized access to sensitive data stored in cloud systems."
+      },
+      {
+        "id": 1.7,
+        "task_name": "Business Email Compromise (BEC)",
+        "description": "Impersonating executives or trusted individuals via email to manipulate financial transactions or gain sensitive information."
+      },
+      {
+        "id": 1.8,
+        "task_name": "Watering Hole Attack",
+        "description": "Compromising websites frequently visited by a target group to deploy malware."
+      }
+    ]
+  },
+  {
+    "category_id": 2.0,
+    "category": "Weapon and Tool Preparation",
+    "tasks": [
+      {
+        "id": 2.1,
+        "task_name": "Weapon Assembly and Modifications",
+        "description": "Assembling and modifying weapons to meet operational needs."
+      },
+      {
+        "id": 2.2,
+        "task_name": "IED Design and Assembly",
+        "description": "Designing Improvised Explosive Devices with customized triggers and payloads."
+      },
+      {
+        "id": 2.3,
+        "task_name": "CBRNE Weapon Development",
+        "description": "Developing and configuring Chemical, Biological, Radiological, Nuclear, and Explosive (CBRNE) devices."
+      },
+      {
+        "id": 2.4,
+        "task_name": "Exploitation Frameworks",
+        "description": "Utilizing advanced cyber exploitation frameworks like Metasploit and Cobalt Strike to automate the exploitation of vulnerabilities."
+      },
+      {
+        "id": 2.5,
+        "task_name": "Brute Force Attack",
+        "description": "Using automated tools to repeatedly guess usernames and passwords to gain access to accounts."
+      },
+      {
+        "id": 2.6,
+        "task_name": "Credential Dumping",
+        "description": "Extracting credentials from memory or files to gain further access or escalate privileges."
+      },
+      {
+        "id": 2.7,
+        "task_name": "Password Spraying",
+        "description": "Attempting common passwords across multiple accounts to avoid triggering account lockouts."
+      }
+    ]
+  },
+  {
+    "category_id": 3.0,
+    "category": "Operational Security (OPSEC)",
+    "tasks": [
+      {
+        "id": 3.1,
+        "task_name": "Use of Encrypted Messaging Apps",
+        "description": "Using secure communication tools to avoid interception."
+      },
+      {
+        "id": 3.2,
+        "task_name": "Use of TOR and VPNs for Anonymity",
+        "description": "Protecting digital communications and masking online presence."
+      },
+      {
+        "id": 3.3,
+        "task_name": "Use of Command and Control (C2) Infrastructure",
+        "description": "Setting up C2 servers to maintain control over compromised machines and networks."
+      },
+      {
+        "id": 3.4,
+        "task_name": "DNS Tunneling",
+        "description": "Using DNS queries to exfiltrate data or bypass security controls."
+      },
+      {
+        "id": 3.5,
+        "task_name": "Web Shell Installation",
+        "description": "Installing web shells on compromised servers to maintain persistent access."
+      },
+      {
+        "id": 3.6,
+        "task_name": "Living Off the Land (LotL)",
+        "description": "Using legitimate system tools like PowerShell to conduct attacks and evade detection."
+      }
+    ]
+  },
+  {
+    "category_id": 4.0,
+    "category": "Financing and Funding Operations",
+    "tasks": [
+      {
+        "id": 4.1,
+        "task_name": "Exploitation of Crowdfunding Platforms",
+        "description": "Raising funds under false pretenses using online platforms."
+      },
+      {
+        "id": 4.2,
+        "task_name": "Use of Cryptocurrency for Fundraising",
+        "description": "Leveraging digital currencies to finance operations while evading controls."
+      },
+      {
+        "id": 4.3,
+        "task_name": "Cryptocurrency Laundering through Mixers and Tumblers",
+        "description": "Obfuscating the source of funds to bypass financial tracking."
+      },
+      {
+        "id": 4.4,
+        "task_name": "Cryptojacking Attack",
+        "description": "Using compromised systems or cloud environments to mine cryptocurrency without the owner's knowledge."
+      },
+      {
+        "id": 4.5,
+        "task_name": "Cloud Cryptomining",
+        "description": "Using cloud infrastructure to mine cryptocurrencies without authorization."
+      }
+    ]
+  },
+  {
+    "category_id": 5.0,
+    "category": "Reconnaissance and Targeting",
+    "tasks": [
+      {
+        "id": 5.1,
+        "task_name": "Network Enumeration",
+        "description": "Mapping target networks to identify weaknesses."
+      },
+      {
+        "id": 5.2,
+        "task_name": "Vulnerability Exploitation",
+        "description": "Identifying and exploiting vulnerabilities in target systems."
+      },
+      {
+        "id": 5.3,
+        "task_name": "Target Selection of Critical Infrastructure Sectors",
+        "description": "Identifying high-value infrastructure targets."
+      },
+      {
+        "id": 5.4,
+        "task_name": "Cloud and IoT Exploitation",
+        "description": "Targeting misconfigurations and vulnerabilities in cloud infrastructures and Internet of Things (IoT) devices."
+      },
+      {
+        "id": 5.5,
+        "task_name": "Supply Chain Vulnerability Exploitation",
+        "description": "Targeting third-party vendors, software supply chains, or hardware manufacturers to insert backdoors or malicious code into critical systems."
+      },
+      {
+        "id": 5.6,
+        "task_name": "Credential Stuffing",
+        "description": "Using previously breached credentials across various services to gain unauthorized access."
+      },
+      {
+        "id": 5.7,
+        "task_name": "Cross-Site Scripting (XSS)",
+        "description": "Injecting malicious scripts into websites to steal session cookies or redirect users to malicious sites."
+      },
+      {
+        "id": 5.8,
+        "task_name": "DNS Hijacking",
+        "description": "Redirecting DNS queries to malicious sites."
+      }
+    ]
+  },
+  {
+    "category_id": 6.0,
+    "category": "Tactical Planning and Coordination",
+    "tasks": [
+      {
+        "id": 6.1,
+        "task_name": "Developing Attack Strategies",
+        "description": "Creating operational plans based on intelligence and identified vulnerabilities."
+      },
+      {
+        "id": 6.2,
+        "task_name": "Assigning Roles and Responsibilities",
+        "description": "Organizing team roles to ensure cohesive execution."
+      },
+      {
+        "id": 6.3,
+        "task_name": "Contingency Planning",
+        "description": "Developing backup plans to address potential failures."
+      },
+      {
+        "id": 6.4,
+        "task_name": "Conducting Dry Runs and Rehearsals",
+        "description": "Testing strategies and refining operational details."
+      },
+      {
+        "id": 6.5,
+        "task_name": "Synchronizing Cyber and Physical Attacks",
+        "description": "Coordinating timing and execution of cyber and physical elements."
+      },
+      {
+        "id": 6.6,
+        "task_name": "Real-Time Communication and Coordination",
+        "description": "Ensuring continuous communication during operations."
+      },
+      {
+        "id": 6.7,
+        "task_name": "DDoS Attack",
+        "description": "Overloading a system or service with traffic to render it inaccessible."
+      },
+      {
+        "id": 6.8,
+        "task_name": "SQL Injection (SQLi)",
+        "description": "Manipulating web application inputs to gain unauthorized access to backend databases."
+      }
+    ]
+  }
+]
